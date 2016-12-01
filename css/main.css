@@ -1,4 +1,5 @@
 *  {
+	outline: 1px solid rgba(245, 0, 0, 0.4)
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
@@ -11,6 +12,9 @@ body {
 	
 }
 
+.yellow {
+	background: yellow;
+}
 .container{
 	width: 90%;
 	margin: 0 auto;
@@ -28,20 +32,63 @@ body {
 }
 
 /* Seccion header */
+.hero{
+    background: url(../img/home.jpg)no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+header{
+    background-color:#f8f8f8;
+}
+header h2{
+    font-size: 16px;
+    margin-top: 20px;
+}
+header nav{
+    margin-top: 13px;
+  
+}
+
+.list-inline {
+	text-align: right;
+}
+
+ul li a{
+	color: black;
+	padding: 20px 10px;
+}
+
+.hero .caja{
+    width: 660px;
+    text-align: center;
+    position: relative;
+    top: 210px;
+    left: 250px;
+}
+.hero h3{
+    font-size: 36px;
+    color: white;
+}
+.hero p{
+    font-size: 14px;
+    color: black;
+}
+.hero button{
+    background-color:#337ab7;
+    padding: 7px 17px 7px 17px;
+    color: white;
+    border-radius: 5px;
+}
+
 header {
 	width: 100%;
 	height: 100px;
 	overflow: hidden;
-	margin-bottom: 40px;
-	z-index: 1;
-	position: fixed;
 }
 
 header .logo {
-	line-height: 100px;
 	width: 25%;
 	float: left;
-	height: auto;
 	margin-top: 10px;
 }
 
@@ -54,7 +101,6 @@ header .logo {
 
 header nav {
 	float: right;
-	line-height: 100px;
 	font-family: Open+Sans;
 }
 
@@ -63,7 +109,6 @@ header nav a {
 	padding:10px 10px;
 	font-size: 12px;
 	font-family: "arial";
-	font-style: italic;
 	text-decoration: none;
 	line-height: normal;
 	-webkit-transition: all 500ms ease;
@@ -82,16 +127,15 @@ header nav a:hover {
 	height: 400px;
 	margin: 0 auto;
 	margin-bottom: 40px;
-	margin-top: 140px;
 }	
 
 .inner {
 	width: 600px;
 	height: 200px;
-	background-color:#00001a;
+	
 }
 
-.inner, .main-title, .sub-title {
+.inner, .main-title {
 	position: relative;
 	top:50%;
 	transform: translateY(-50%);
@@ -99,10 +143,8 @@ header nav a:hover {
 }
 
 .main-title {
-	color: #ffd27f;
-	font-size: 80px;
+	color: #fff;
 	text-align: center;
-	font-family: "Courgette";
 }
 
 /* footer */
@@ -176,13 +218,4 @@ footer span{
     	font-size: 15px;
     }
 
-    .column1, .column2, .column3, .column4, .column5 {
-        float: none;
-        width: 100%;
-        padding: 0;
-    }
-
-   .column5 {
-   		display: none;
-   }
 }
