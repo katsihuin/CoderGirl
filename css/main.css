@@ -75,11 +75,12 @@ header nav a:hover, nav li a:focus {
 	
 	background-color: #FFF;
 }
-/* Seccion hero */
+/********************************************** Seccion hero */
 .jumbotron{
     background: url(../img/home.jpg) no-repeat;
     background-size: cover;
     min-height: 450px;
+    margin-bottom: 60px;
 }
 
 .main-title {
@@ -90,68 +91,39 @@ header nav a:hover, nav li a:focus {
 	display: block;
 	padding-bottom: 10px;
 }
-	
-/* footer */
-footer {
-	background-color: #00001a;
-	width: 100%;
+
+/********************************************** Section Documental */
+.documental {
+	padding: 0 30px;
+	margin: 20px 0;
+}
+.documental .container .sub-title{
+	margin-bottom: 40px;
+}
+
+/********************************************** Section Hackaton */
+.hackathon .container {
+	background-color: #ffff00;
+	margin: 60px auto;
+	padding: 30px 0;
+}
+
+/********************************************** Section Contact */
+.contact .container .computer{
+	margin-top: 30px;
+}
+
+/********************************************** Section footer */
+footer .container{
+	background-color: #00b3b3;
 	height: auto;
 	clear: both;
 	margin-top: 40px;
 	line-height: 100px;
 	vertical-align: middle;
-
 }
 
 footer span{
-	color: grey;
+	color: #ffff00;
 }
 
-/* Responsive */
-@media screen and (max-width:600px)
-{
-	.inner{
-    position:absolute;
-    top: 25px;
-	transform: translateX(-50%);
-}
-	.main-title {
-	font-size: 15px;
-}
-	
-
-}
-
-@media screen and (max-width:768px)
-{
-	.inner{
-    position:absolute;
-   top:50px;
-	transform: translateX(-50%);
-}
-	.main-title {
-	font-size: 25px;
-}
-	
-
-}
-@media screen and (max-width:999px)
-{
-	.inner{
-    position:absolute;
-    padding-top: 70px;
-	transform: translateX(-50%);
-}
-
-@media screen and (max-width:999px) and (min-width:768px)
-{
-	.inner{
-    position:absolute;
-    top:70px;
-	transform: translateX(-50%);
-}
-	.desktop-menu
-	{
-		text-align: center;
-	}
-}

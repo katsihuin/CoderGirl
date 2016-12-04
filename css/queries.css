@@ -1,0 +1,57 @@
+/* Responsive */
+@media screen and (max-width:600px)
+{
+
+	.main-title {
+	font-size: 15px;
+	}
+	.documental {
+	padding: 0;
+	margin: 40px 0 40px 0;
+	}
+	.hackathon .container {
+	margin: 60px auto;
+	padding: 30px;
+	}
+}
+
+@media screen and (max-width:768px)
+{
+	.main-title {
+	font-size: 25px;
+	}
+	.documental {
+	padding: 0;
+	margin: 40px 0 40px 0;
+	}
+	.hackathon .container {
+	margin: 60px auto;
+	padding: 30px;
+	}
+
+}
+@media screen and (max-width:999px)
+{
+	.documental {
+	padding: 0;
+	margin: 40px 0 40px 0;
+	}
+
+	.hackathon .container {
+	margin: 60px auto;
+	padding: 30px;
+	}
+
+}
+
+@media screen and (max-width:999px) and (min-width:768px)
+{
+	.documental {
+	padding: 0;
+	margin: 40px 0 40px 0;
+	}
+	.hackathon .container {
+	margin: 60px auto;
+	padding: 30px;
+	}
+}
