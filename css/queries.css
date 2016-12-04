@@ -1,7 +1,9 @@
 /* Responsive */
 @media screen and (max-width:600px)
 {
-
+	#burger-button{
+		margin: 20px 15px 0 0;
+	}
 	.main-title {
 	font-size: 15px;
 	}
@@ -17,6 +19,9 @@
 
 @media screen and (max-width:768px)
 {
+	#burger-button{
+	margin: 20px 15px 0 0;
+	}
 	.main-title {
 	font-size: 25px;
 	}

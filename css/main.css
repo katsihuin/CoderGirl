@@ -1,3 +1,4 @@
+
 *  {
 	outline: 1px solid rgba(245, 0, 0, 0.4)
 	padding: 0;
@@ -49,7 +50,7 @@ header nav a {
 }
 
 header nav a:hover, nav li a:focus {
-	background-color: #cccccc;
+	background-color: #00b3b3;
 	color: #FFF;
 	text-decoration: none;
 	outline: none;
@@ -59,10 +60,10 @@ header nav a:hover, nav li a:focus {
 	z-index: 1;
 	position: absolute;
 	right: 10px;
-	margin: 10px 0 0 0;
+	margin: 17px 20px 0 0;
 }
 #main-navigation ul {
-	background: #337ab7;
+	background: rgba(51,122,183, 0.7);
 	list-style: none;
 	padding: 10px;
 	border-radius: 5px;
@@ -71,9 +72,21 @@ header nav a:hover, nav li a:focus {
 	color: #FFF;
 }
 
-#burger-button{
-	
+.icon-menu{
+	margin: 10px;
 	background-color: #FFF;
+	color: lightgrey;
+	font-size: 25px;
+}
+
+.mobile-menu {
+	margin-top: -20px;
+}
+
+#burger-button {
+	background-color: transparent;
+	padding: 5px;
+	border-color: lightgrey;
 }
 /********************************************** Seccion hero */
 .jumbotron{
@@ -112,7 +125,9 @@ header nav a:hover, nav li a:focus {
 .contact .container .computer{
 	margin-top: 30px;
 }
-
+.contact h3{
+	padding-left: 10px;
+}
 /********************************************** Section footer */
 footer .container{
 	background-color: #00b3b3;
