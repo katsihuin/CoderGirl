@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="icon/style.css">
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>	
+
 </head>
 <body>
 	<!---------Aqui inicia Header -------->
@@ -20,23 +21,26 @@
 		<div class="container">
 				<div class="row">
 					<div class="col-md-3 col-sm-12 col-xs-6">
-						<h4>Coder Girl</h4>
+						<h4>Code Girl</h4>
 					</div>
-					<div class="col-md-9 col-sm-12 col-xs-6">
+					<div class= "col-md-9 col-sm-12 col-xs-6">
+						<!-- Single menu hamburger button -->
 						<div class="text-right visible-xs">
-							<button class="btn btn-primary" data-toggle="collapse" data-target="#main-navigation">Menú</button>
+						    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#main-navigation">
+						    	<span class="glyphicon glyphicon-menu-hamburger" id="burger-button"></span>
+						    </button>
 						</div>
-						<nav class="hidden-xs">
-							<ul class="desktop-menu list-inline text-right">
-								<li><a href="#">Inicio</a></li>
-								<li><a href="#">Documental</a></li>
-								<li><a href="#">Hackaton</a></li>
-								<li><a href="#">Contacto</a></li>
-							</ul>
-						</nav>
+						  	<nav class="hidden-xs">
+						  		<ul class="desktop-menu list-inline text-right">
+							    	<li><a href="#">Inicio</a></li>
+									<li><a href="#">Documental</a></li>
+									<li><a href="#">Hackaton</a></li>
+									<li><a href="#">Contacto</a></li>
+						 		</ul>
+						  	</nav>
 					</div>
 				</div>
-			</div>
+		</div>
 		<nav class="visible-xs">
 					<div id="main-navigation" class="collapse">
 						<ul  class="mobile-menu text-right">
@@ -48,27 +52,29 @@
 					</div>
 		</nav>
 	</header>
+
 	<!---------Aqui inicia Hero -------->
-	<section>
-		<div class="container content">
-			<div class="hero">
-				<div class="inner text-center">
-						<h1 class="main-title">CHICAS QUE CAMBIAN EL MUNDO</h1>
-						<p>¡Participa en nuestras actividades!</p>
-						<form action="inscribete">
-							<button class="button btn-primary" type="submit">Inscríbete</button>
-						</form>				
+	<section class="hero">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 jumbotron">
+					<div class="text-center">
+						<h6 class="main-title">CHICAS QUE CAMBIAN EL MUNDO</h6>
+						<small class="participa">¡Participa en nuestras actividades!</small>
+						<button class="btn btn-lg btn-primary" type="submit">Inscríbete</button>	
+					</div>		
 				</div>
 			</div>
 		</div>	
 	</section>
-	<!---------Aqui inicia Doumental -------->
+
+	<!---------Aqui inicia Documental -------->
 	<section>
 		<div class="container clearfix">
-			<h2>VE NUESTRO DOCUMENTAL</h2>
+			<h3>VE NUESTRO DOCUMENTAL</h3>
 			<div class="row">
 				<div class="col-lg-5 col-lg-offset-1 col-sm-12 col-xs-12">
-					<h3>CODE GIRLS</h3>
+					<h4>CODE GIRLS</h4>
 					<p>El documental muestra el trabajo de diferentes equipos integrados por chicas de diferentes escuelas (provenientes de Estados Unidos, Brasil, India y México) que, junto con un mentor o una mentora que acompaña su experiencia, disponen de tres meses para crear un plan de negocios y una aplicación que resuelva problemas en sus comunidades en el marco de la competencia Technovation.</p>
 					<p>De la competencia expuesta en el documental participaron 300 equipos, de los cuales 44 llegaron a la semifinal, luego 6 resultaron semifinalistas, y finalmente el ganador recibió un premio de 10.000 dólares.</p>
 				</div>
